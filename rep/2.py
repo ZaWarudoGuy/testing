@@ -10,7 +10,7 @@ def sorting(listik, length):
                 break
     return listik
 
-
+print('baza')
 with open('students.csv', encoding='utf8') as f:
     x = list(csv.reader(f, delimiter=','))[1:]
     ans = sorting(x, len(x))
